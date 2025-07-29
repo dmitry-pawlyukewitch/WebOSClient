@@ -48,8 +48,8 @@ extension WebOSTarget: WebOSTargetProtocol {
             return "ssap://com.webos.service.connectionmanager"
         case .turnOff:
             return "ssap://system/turnOff"
-        case .listApps:
-            return "ssap://com.webos.applicationManager/listApps"
+        case .listLaunchPoints:
+            return "ssap://com.webos.applicationManager/listLaunchPoints"
         case .getForegroundApp:
             return "ssap://com.webos.applicationManager/getForegroundAppInfo"
         case .getForegroundAppMediaStatus:
