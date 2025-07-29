@@ -35,6 +35,7 @@ public struct WebOSResponsePayload: Codable {
     public let configKey: String?
     public let languageCode: String?
     public let subscribed: Bool?
+    public let launchPoints: [WebOSLaunchPoint]?
     public let applications: [WebOSResponseApplication]?
     public let appId: String?
     public let processId: String?
@@ -78,6 +79,7 @@ public struct WebOSResponsePayload: Codable {
         case languageCode = "language_code"
         case subscribed
         case applications = "apps"
+        case launchPoints = "launchPoints"
         case appId
         case processId
         case windowId
