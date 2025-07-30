@@ -9,6 +9,9 @@ public struct WebOSResponseApplication: Codable, Identifiable {
     public let id: String?
     public let title: String?
     public let icon: String?
+    public let largeIcon: String?
+    public let bgColor: String?
+    public let iconColor: String?
     public let folderPath: String?
     public let version: String?
     public let systemApp: Bool?
